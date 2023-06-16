@@ -1,0 +1,29 @@
+{
+  "version": 2,
+  "dgSpecHash": "LbJC5PGPftw3Toa2X8GsALL13+LZWthctjAndKu8Aw22OHsX4duCu0tk4trldl7J6nm+De1o8mIN3lABLg8qRg==",
+  "success": false,
+  "projectFilePath": "C:\\Users\\hp\\Downloads\\ProLangExam_2023_part_1-master\\ProLangExam_2023_part_1-master\\ProgrammingLanguagesExam\\University\\University.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\hp\\.nuget\\packages\\microsoft.entityframeworkcore.inmemory\\7.0.7\\microsoft.entityframeworkcore.inmemory.7.0.7.nupkg.sha512"
+  ],
+  "logs": [
+    {
+      "code": "NU1202",
+      "level": "Error",
+      "message": "Package Microsoft.EntityFrameworkCore.InMemory 7.0.7 is not compatible with net70 (.NETFramework,Version=v7.0). Package Microsoft.EntityFrameworkCore.InMemory 7.0.7 supports: net6.0 (.NETCoreApp,Version=v6.0)",
+      "libraryId": "Microsoft.EntityFrameworkCore.InMemory",
+      "targetGraphs": [
+        ".NETFramework,Version=v7.0"
+      ]
+    },
+    {
+      "code": "NU1202",
+      "level": "Error",
+      "message": "Package Microsoft.EntityFrameworkCore.InMemory 7.0.7 is not compatible with net70 (.NETFramework,Version=v7.0) / win7-x86. Package Microsoft.EntityFrameworkCore.InMemory 7.0.7 supports: net6.0 (.NETCoreApp,Version=v6.0)",
+      "libraryId": "Microsoft.EntityFrameworkCore.InMemory",
+      "targetGraphs": [
+        ".NETFramework,Version=v7.0/win7-x86"
+      ]
+    }
+  ]
+}
